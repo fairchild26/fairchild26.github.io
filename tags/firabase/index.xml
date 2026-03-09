@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Firabase on </title>
+    <link>https://fairchild26.github.io/tags/firabase/</link>
+    <description>Recent content in Firabase on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>Copyright © 2026 Robin Fairchild</copyright>
+    <lastBuildDate>Fri, 06 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://fairchild26.github.io/tags/firabase/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>使用 Firebase 获取文章浏览和点赞数据</title>
+      <link>https://fairchild26.github.io/website/firebase/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://fairchild26.github.io/website/firebase/</guid>
+      <description>&lt;!-- 图片的显示宽度和文本长度有关。一个 --&gt;&#xD;&#xA;&lt;script&gt;&#xA;    window.onload = function() {&#xA;        var zenButton = document.getElementById(&#39;zen-mode-button&#39;);&#xA;        zenButton.click();&#xA;    };&#xA;&lt;/script&gt;&#xA;&lt;blockquote&gt;&lt;p&gt;&lt;a href=&#34;https://blowfish.page/docs/firebase-views/&#34;  target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;Blowfish 主题手册&lt;/a&gt;已经对 &lt;a href=&#34;https://firebase.google.com/&#34;  target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;Firebase&lt;/a&gt; 的使用进行了详细介绍，引入 Firebase 能够动态获取文章的阅读量和点赞量。本文将用截图进行演示。&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

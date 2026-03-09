@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Giscus on </title>
+    <link>https://fairchild26.github.io/tags/giscus/</link>
+    <description>Recent content in Giscus on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>Copyright © 2026 Robin Fairchild</copyright>
+    <lastBuildDate>Thu, 05 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://fairchild26.github.io/tags/giscus/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Hugo 博客如何添加 Giscus 评论系统</title>
+      <link>https://fairchild26.github.io/website/giscus/</link>
+      <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://fairchild26.github.io/website/giscus/</guid>
+      <description>本文介绍了如何为 Hugo - Blowfish 主题博客添加 Giscus 评论系统</description>
+      
+    </item>
+    
+  </channel>
+</rss>

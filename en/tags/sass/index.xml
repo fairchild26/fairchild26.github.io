@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sass on </title>
+    <link>https://fairchild26.github.io/en/tags/sass/</link>
+    <description>Recent content in Sass on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2026 Robin Fairchild</copyright>
+    <lastBuildDate>Sat, 31 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://fairchild26.github.io/en/tags/sass/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Building a Personal Blog with Hugo</title>
+      <link>https://fairchild26.github.io/en/website/blowfish/</link>
+      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://fairchild26.github.io/en/website/blowfish/</guid>
+      <description>Using the Hugo framework and the Blowfish theme, I built my first real website. Through this, I learned how to use development tools, set up the environment, manage website content, and increased my motivation to learn.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

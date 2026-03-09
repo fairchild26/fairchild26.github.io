@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welcome to my world! on </title>
+    <link>https://fairchild26.github.io/en/</link>
+    <description>Recent content in Welcome to my world! on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2026 Robin Fairchild</copyright>
+    <lastBuildDate>Sat, 07 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://fairchild26.github.io/en/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>C&#43;&#43; for_each Traversal Algorithm</title>
+      <link>https://fairchild26.github.io/en/cpp/for_each/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://fairchild26.github.io/en/cpp/for_each/</guid>
+      <description>&lt;p&gt;&lt;code&gt;for_each()&lt;/code&gt; is a traversal algorithm that executes a given callable object (functor, lambda expression, function pointer) on each element within a specified range and returns that callable object to obtain its final state.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Streams and File I/O</title>
+      <link>https://fairchild26.github.io/en/cpp/fileio/</link>
+      <pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://fairchild26.github.io/en/cpp/fileio/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;1 Predefined Standard Stream Objects&#xD;&#xA;    &lt;div id=&#34;1-predefined-standard-stream-objects&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;span&#xD;&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xD;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#1-predefined-standard-stream-objects&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;In C++, predefined standard stream objects are several global objects provided by the &lt;code&gt;iostream&lt;/code&gt; library, representing standard input/output devices (usually the keyboard and screen). These objects are automatically created when the program starts and can be used directly.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Web Toy: &#39;Sakana!&#39; Lycoris Radiata Simulator</title>
+      <link>https://fairchild26.github.io/en/website/sakana/</link>
+      <pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://fairchild26.github.io/en/website/sakana/</guid>
+      <description>A fun web widget</description>
+      
+    </item>
+    
+    <item>
+      <title>Using Firebase to Get Article Views and Likes</title>
+      <link>https://fairchild26.github.io/en/website/firebase/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://fairchild26.github.io/en/website/firebase/</guid>
+      <description>&lt;script&gt;&#xA;    window.onload = function() {&#xA;        var zenButton = document.getElementById(&#39;zen-mode-button&#39;);&#xA;        zenButton.click();&#xA;    };&#xA;&lt;/script&gt;&#xA;&lt;blockquote&gt;&lt;p&gt;The &lt;a href=&#34;https://blowfish.page/docs/firebase-views/&#34;  target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;Blowfish Theme Manual&lt;/a&gt; has provided a detailed introduction to using &lt;a href=&#34;https://firebase.google.com/&#34;  target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;Firebase&lt;/a&gt;, demonstrating how to dynamically obtain article views and likes. This article will demonstrate this with screenshots.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>How to Add a Giscus Comment System to a Hugo Blog</title>
+      <link>https://fairchild26.github.io/en/website/giscus/</link>
+      <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://fairchild26.github.io/en/website/giscus/</guid>
+      <description>This article introduces how to add a Giscus comment system to a Hugo - Blowfish theme blog</description>
+      
+    </item>
+    
+    <item>
+      <title>A civil engineering guy who quit and ran: Taking Off My Safety Helmet, I&#39;m Climbing the &#39;Scaffolding&#39; of the Internet</title>
+      <link>https://fairchild26.github.io/en/about/tumunizi/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://fairchild26.github.io/en/about/tumunizi/</guid>
+      <description>Civil Engineering, CSCEC, Career Change, Internet, Life Choices</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fairchild26.github.io/about/tumunizi/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Building a Personal Blog with Hugo</title>
+      <link>https://fairchild26.github.io/en/website/blowfish/</link>
+      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://fairchild26.github.io/en/website/blowfish/</guid>
+      <description>Using the Hugo framework and the Blowfish theme, I built my first real website. Through this, I learned how to use development tools, set up the environment, manage website content, and increased my motivation to learn.</description>
+      
+    </item>
+    
+    <item>
+      <title>Guestbook</title>
+      <link>https://fairchild26.github.io/en/message/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://fairchild26.github.io/en/message/</guid>
+      <description>&lt;p&gt;Say it here 👉︎ 👉︎&lt;/p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;choice-box&#34; data-id=&#34;10926145387&#34; data-mode=&#34;single&#34;&gt;&#xA;  &lt;h2 class=&#34;choice-title&#34;&gt;🌱 What should one pursue most in life?&lt;/h2&gt;&#xA;&#xA;  &lt;div class=&#34;choice-options&#34;&gt;&#xA;    &#xA;      &#xA;        &lt;label class=&#34;choice-item&#34;&gt;&#xA;          &#xA;            &lt;input type=&#34;radio&#34; name=&#34;choice_10926145387&#34; value=&#34;💧 Inner peace&#34;&gt;&#xA;          &#xA;          &lt;span class=&#34;choice-text&#34;&gt;💧 Inner peace&lt;/span&gt;&#xA;        &lt;/label&gt;&#xA;      &#xA;    &#xA;      &#xA;        &lt;label class=&#34;choice-item&#34;&gt;&#xA;          &#xA;            &lt;input type=&#34;radio&#34; name=&#34;choice_10926145387&#34; value=&#34;🚀 Career success&#34;&gt;&#xA;          &#xA;          &lt;span class=&#34;choice-text&#34;&gt;🚀 Career success&lt;/span&gt;&#xA;        &lt;/label&gt;&#xA;      &#xA;    &#xA;      &#xA;        &lt;label class=&#34;choice-item&#34;&gt;&#xA;          &#xA;            &lt;input type=&#34;radio&#34; name=&#34;choice_10926145387&#34; value=&#34;🏠 Warmth of family&#34;&gt;&#xA;          &#xA;          &lt;span class=&#34;choice-text&#34;&gt;🏠 Warmth of family&lt;/span&gt;&#xA;        &lt;/label&gt;&#xA;      &#xA;    &#xA;      &#xA;        &lt;label class=&#34;choice-item&#34;&gt;&#xA;          &#xA;            &lt;input type=&#34;radio&#34; name=&#34;choice_10926145387&#34; value=&#34;🌍 Freedom of exploration&#34;&gt;&#xA;          &#xA;          &lt;span class=&#34;choice-text&#34;&gt;🌍 Freedom of exploration&lt;/span&gt;&#xA;        &lt;/label&gt;&#xA;      &#xA;    &#xA;      &#xA;    &#xA;      &#xA;    &#xA;      &#xA;    &#xA;      &#xA;    &#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.choice-box{&#xA;  max-width:720px;&#xA;  margin:2rem auto;&#xA;  padding:1.5rem;&#xA;  border-radius:1rem;&#xA;  border:1px solid #21262d;&#xA;  background:var(--choice-bg, transparent);&#xA;}&#xA;.dark .choice-box{ border-color:#30363d; }&#xA;&#xA;.choice-title{&#xA;  font-size:1.5rem;&#xA;  font-weight:700;&#xA;  text-align:center;&#xA;  margin-bottom:1.2rem;&#xA;}&#xA;&#xA;.choice-options{&#xA;  display:grid;&#xA;  grid-template-columns:1fr;&#xA;  gap:.75rem;&#xA;}&#xA;&#xA;.choice-item{&#xA;  display:flex;&#xA;  align-items:center;&#xA;  gap:.75rem;&#xA;  padding:.8rem 1rem;&#xA;  border-radius:.75rem;&#xA;  border:1px solid #21262d;&#xA;  cursor:pointer;&#xA;  transition:all .2s ease;&#xA;  user-select:none;&#xA;}&#xA;.dark .choice-item{ border-color:#30363d; }&#xA;&#xA;.choice-item:hover{&#xA;  transform:translateY(-1px);&#xA;  box-shadow:0 6px 16px rgba(0,0,0,.06);&#xA;}&#xA;&#xA;.choice-item input{ display:none; }&#xA;&#xA;.choice-item:has(input:checked){&#xA;  border-color:#22c55e;&#xA;  background:rgba(34,197,94,0.08);&#xA;}&#xA;&#xA;.choice-item input:checked + .choice-text{&#xA;  font-weight:600;&#xA;  color:#16a34a;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;script&gt;&#xA;(function(){&#xA;  const box = document.querySelector(&#39;.choice-box[data-id=&#34;10926145387&#34;]&#39;);&#xA;  if(!box) return;&#xA;&#xA;  const mode = box.dataset.mode;&#xA;  const inputs = box.querySelectorAll(&#39;input&#39;);&#xA;  const KEY = &#34;multi_choice_10926145387&#34;;&#xA;&#xA;  &#xA;  const saved = JSON.parse(localStorage.getItem(KEY) || &#34;[]&#34;);&#xA;&#xA;  inputs.forEach(i=&gt;{&#xA;    if(saved.includes(i.value)){&#xA;      i.checked = true;&#xA;    }&#xA;  });&#xA;&#xA;  &#xA;  inputs.forEach(i=&gt;{&#xA;    i.addEventListener(&#34;change&#34;, ()=&gt;{&#xA;      let selected = [];&#xA;&#xA;      if(mode === &#34;single&#34;){&#xA;        selected = [i.value];&#xA;        inputs.forEach(x=&gt;{&#xA;          if(x !== i) x.checked = false;&#xA;        });&#xA;      }else{&#xA;        selected = [...inputs].filter(x=&gt;x.checked).map(x=&gt;x.value);&#xA;      }&#xA;&#xA;      localStorage.setItem(KEY, JSON.stringify(selected));&#xA;    });&#xA;  });&#xA;})();&#xA;&lt;/script&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

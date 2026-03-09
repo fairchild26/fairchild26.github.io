@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on </title>
+    <link>https://fairchild26.github.io/en/tags/hugo/</link>
+    <description>Recent content in Hugo on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2026 Robin Fairchild</copyright>
+    <lastBuildDate>Mon, 09 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://fairchild26.github.io/en/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Web Toy: &#39;Sakana!&#39; Lycoris Radiata Simulator</title>
+      <link>https://fairchild26.github.io/en/website/sakana/</link>
+      <pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://fairchild26.github.io/en/website/sakana/</guid>
+      <description>A fun web widget</description>
+      
+    </item>
+    
+    <item>
+      <title>Using Firebase to Get Article Views and Likes</title>
+      <link>https://fairchild26.github.io/en/website/firebase/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://fairchild26.github.io/en/website/firebase/</guid>
+      <description>&lt;script&gt;&#xA;    window.onload = function() {&#xA;        var zenButton = document.getElementById(&#39;zen-mode-button&#39;);&#xA;        zenButton.click();&#xA;    };&#xA;&lt;/script&gt;&#xA;&lt;blockquote&gt;&lt;p&gt;The &lt;a href=&#34;https://blowfish.page/docs/firebase-views/&#34;  target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;Blowfish Theme Manual&lt;/a&gt; has provided a detailed introduction to using &lt;a href=&#34;https://firebase.google.com/&#34;  target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;Firebase&lt;/a&gt;, demonstrating how to dynamically obtain article views and likes. This article will demonstrate this with screenshots.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>How to Add a Giscus Comment System to a Hugo Blog</title>
+      <link>https://fairchild26.github.io/en/website/giscus/</link>
+      <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://fairchild26.github.io/en/website/giscus/</guid>
+      <description>This article introduces how to add a Giscus comment system to a Hugo - Blowfish theme blog</description>
+      
+    </item>
+    
+    <item>
+      <title>Building a Personal Blog with Hugo</title>
+      <link>https://fairchild26.github.io/en/website/blowfish/</link>
+      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://fairchild26.github.io/en/website/blowfish/</guid>
+      <description>Using the Hugo framework and the Blowfish theme, I built my first real website. Through this, I learned how to use development tools, set up the environment, manage website content, and increased my motivation to learn.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

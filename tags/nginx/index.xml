@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nginx on </title>
+    <link>https://fairchild26.github.io/tags/nginx/</link>
+    <description>Recent content in Nginx on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>Copyright © 2026 Robin Fairchild</copyright>
+    <lastBuildDate>Wed, 04 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://fairchild26.github.io/tags/nginx/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Linux 基础</title>
+      <link>https://fairchild26.github.io/cpp/linux/</link>
+      <pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://fairchild26.github.io/cpp/linux/</guid>
+      <description>一份涵盖 Shell、Linux 命令、Vim、Nginx 和 MySQL 的系统性 Linux 基础笔记</description>
+      
+    </item>
+    
+  </channel>
+</rss>

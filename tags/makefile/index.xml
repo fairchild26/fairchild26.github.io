@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Makefile on </title>
+    <link>https://fairchild26.github.io/tags/makefile/</link>
+    <description>Recent content in Makefile on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>Copyright © 2026 Robin Fairchild</copyright>
+    <lastBuildDate>Thu, 05 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://fairchild26.github.io/tags/makefile/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Linux 下的 C&#43;&#43; 编程</title>
+      <link>https://fairchild26.github.io/cpp/gcc/</link>
+      <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://fairchild26.github.io/cpp/gcc/</guid>
+      <description>必须掌握的 C/C++ 编程技术</description>
+      
+    </item>
+    
+  </channel>
+</rss>

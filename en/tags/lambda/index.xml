@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lambda on </title>
+    <link>https://fairchild26.github.io/en/tags/lambda/</link>
+    <description>Recent content in Lambda on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2026 Robin Fairchild</copyright>
+    <lastBuildDate>Sat, 07 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://fairchild26.github.io/en/tags/lambda/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>C&#43;&#43; for_each Traversal Algorithm</title>
+      <link>https://fairchild26.github.io/en/cpp/for_each/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://fairchild26.github.io/en/cpp/for_each/</guid>
+      <description>&lt;p&gt;&lt;code&gt;for_each()&lt;/code&gt; is a traversal algorithm that executes a given callable object (functor, lambda expression, function pointer) on each element within a specified range and returns that callable object to obtain its final state.&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

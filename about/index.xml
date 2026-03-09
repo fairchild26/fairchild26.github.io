@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on </title>
+    <link>https://fairchild26.github.io/about/</link>
+    <description>Recent content in Abouts on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>Copyright © 2026 Robin Fairchild</copyright>
+    <lastBuildDate>Sun, 01 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://fairchild26.github.io/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>土木逆子：摘下安全帽，我要爬上互联网的 “脚手架”</title>
+      <link>https://fairchild26.github.io/about/tumunizi/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://fairchild26.github.io/about/tumunizi/</guid>
+      <description>土木工程、中国建筑、转行、互联网、人生选择</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://fairchild26.github.io/about/tumunizi/featured.jpg" />
+    </item>
+    
+  </channel>
+</rss>
