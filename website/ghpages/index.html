@@ -262,7 +262,7 @@
     "keywords": ["Git","SSH","Go","Hugo"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "809"
+    "wordCount": "810"
   }]
   </script>
 
@@ -996,7 +996,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2026-03-13T00:00:00&#43;00:00">2026 年 3 月 13 日</time><span class="px-2 text-primary-500">&middot;</span><span>809 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">2 分钟</span><span class="px-2 text-primary-500">&middot;</span><span>
+      <time datetime="2026-03-13T00:00:00&#43;00:00">2026 年 3 月 13 日</time><span class="px-2 text-primary-500">&middot;</span><span>810 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">2 分钟</span><span class="px-2 text-primary-500">&middot;</span><span>
   
   
     
@@ -1880,13 +1880,13 @@ Key: <code>ssh-ed25519 AAAA...Q8XW your_email@example.com</code><br>
 <p>做完准备工作，以后每次提交只用这几个命令：</p>
 <div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># 把远程的更新拉下来</span>
 </span></span><span class="line"><span class="cl"><span class="nb">cd</span> public
-</span></span><span class="line"><span class="cl">git pull origin master
+</span></span><span class="line"><span class="cl">git pull --no-rebase origin master
 </span></span><span class="line"><span class="cl"><span class="nb">cd</span> ..
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="c1"># 把本地的更新推上去</span>
 </span></span><span class="line"><span class="cl">hugo
 </span></span><span class="line"><span class="cl"><span class="nb">cd</span> public
-</span></span><span class="line"><span class="cl">git add -A
+</span></span><span class="line"><span class="cl">git add .
 </span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;second commit&#34;</span>
 </span></span><span class="line"><span class="cl">git push -u origin master</span></span></code></pre></div></div>
 <p>用 Github 的 gh-pages 分支展示自己的项目，及 Github Action 自动发布，可参考<br>
