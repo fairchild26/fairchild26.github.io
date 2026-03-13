@@ -1,13 +1,13 @@
 <!doctype html>
 <html
-  lang="en"
+  lang="zh-cn"
   dir="ltr"
   class="scroll-smooth"
   data-default-appearance="light"
   data-auto-appearance="true"><head>
   <meta charset="utf-8">
   
-    <meta http-equiv="content-language" content="en">
+    <meta http-equiv="content-language" content="zh-cn">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -15,20 +15,20 @@
 
   
   
-    <title>Using Firebase to Get Article Views and Likes &middot; </title>
-    <meta name="title" content="Using Firebase to Get Article Views and Likes &middot; ">
+    <title>Hugo &#43; Github Pages 博客搭建方案 &middot; </title>
+    <meta name="title" content="Hugo &#43; Github Pages 博客搭建方案 &middot; ">
   
 
   
   
-    <meta name="description" content="My awesome website">
+    <meta name="description" content="重点 Linux 环境搭建">
   
   
-    <meta name="keywords" content="Firabase,Hugo,">
+    <meta name="keywords" content="Git,SSH,Go,Hugo,">
   
   
   
-  <link rel="canonical" href="https://fairchild26.github.io/en/website/firebase/">
+  <link rel="canonical" href="https://fairchild26.github.io/website/ghpages/">
   
 
   
@@ -64,24 +64,27 @@
   
 
   
-  <meta property="og:url" content="https://fairchild26.github.io/en/website/firebase/">
-  <meta property="og:title" content="Using Firebase to Get Article Views and Likes">
-  <meta property="og:description" content="The Blowfish Theme Manual has provided a detailed introduction to using Firebase, demonstrating how to dynamically obtain article views and likes. This article will demonstrate this with screenshots.">
-  <meta property="og:locale" content="en">
+  <meta property="og:url" content="https://fairchild26.github.io/website/ghpages/">
+  <meta property="og:title" content="Hugo &#43; Github Pages 博客搭建方案">
+  <meta property="og:description" content="重点 Linux 环境搭建">
+  <meta property="og:locale" content="zh_cn">
   <meta property="og:type" content="article">
     <meta property="article:section" content="website">
-    <meta property="article:published_time" content="2026-02-06T00:00:00+00:00">
-    <meta property="article:modified_time" content="2026-02-06T00:00:00+00:00">
-    <meta property="article:tag" content="Firabase">
+    <meta property="article:published_time" content="2026-03-13T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-03-13T00:00:00+00:00">
+    <meta property="article:tag" content="Git">
+    <meta property="article:tag" content="SSH">
+    <meta property="article:tag" content="Go">
     <meta property="article:tag" content="Hugo">
-      <meta property="og:see_also" content="https://fairchild26.github.io/en/website/sakana/">
-      <meta property="og:see_also" content="https://fairchild26.github.io/en/website/giscus/">
-      <meta property="og:see_also" content="https://fairchild26.github.io/en/website/blowfish/">
+      <meta property="og:see_also" content="https://fairchild26.github.io/website/sakana/">
+      <meta property="og:see_also" content="https://fairchild26.github.io/website/firebase/">
+      <meta property="og:see_also" content="https://fairchild26.github.io/website/giscus/">
+      <meta property="og:see_also" content="https://fairchild26.github.io/website/blowfish/">
 
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Using Firebase to Get Article Views and Likes">
-  <meta name="twitter:description" content="The Blowfish Theme Manual has provided a detailed introduction to using Firebase, demonstrating how to dynamically obtain article views and likes. This article will demonstrate this with screenshots.">
+  <meta name="twitter:title" content="Hugo &#43; Github Pages 博客搭建方案">
+  <meta name="twitter:description" content="重点 Linux 环境搭建">
 
   
   
@@ -176,8 +179,8 @@
       id="script-bundle"
       src="/js/main.bundle.min.b9156dd119fa8699e994dba9142ec03d188d537ce7e93c8f0373dbcc9953a19382deb06049f0754d5fc0e297c3046ef52dbb3abe347471234e550c170cc0e37d.js"
       integrity="sha512-uRVt0Rn6hpnplNupFC7APRiNU3zn6TyPA3PbzJlToZOC3rBgSfB1TV/A4pfDBG71Lbs6vjR0cSNOVQwXDMDjfQ=="
-      data-copy="Copy"
-      data-copied="Copied"></script>
+      data-copy="复制"
+      data-copied="已复制"></script>
   
 
   
@@ -201,21 +204,6 @@
 
 
 
-
-  
-  
-  <link
-    type="text/css"
-    rel="stylesheet"
-    href="/css/components/carousel.60dfc156f6adcb4e4ed0f489b28f5b34e2424756a0ffb5294d291f6bf0a9ef712c4f65db4b6f8659d219f9c53f402093639e6514eb30977898f7238c25b99686.css"
-    integrity="sha512-YN/BVvaty05O0PSJso9bNOJCR1ag/7UpTSkfa/Cp73EsT2XbS2&#43;GWdIZ&#43;cU/QCCTY55lFOswl3iY9yOMJbmWhg==">
-  
-  
-  <script
-    defer
-    type="text/javascript"
-    src="/lib/tw-elements/index.min.6b06ebf307d7569a9491faed79e5fc607129a8b37e9e25b0c3def74abaed8762a7ee292009ca3f87fac138d101c397a01b72cf91d6ee78be4a3eba827ff37292.js"
-    integrity="sha512-awbr8wfXVpqUkfrteeX8YHEpqLN&#43;niWww973Srrth2Kn7ikgCco/h/rBONEBw5egG3LPkdbueL5KPrqCf/Nykg=="></script>
 
 
 
@@ -255,26 +243,26 @@
   [{
     "@context": "https://schema.org",
     "@type": "Article",
-    "articleSection": "Personal Website",
-    "name": "Using Firebase to Get Article Views and Likes",
-    "headline": "Using Firebase to Get Article Views and Likes",
+    "articleSection": "个人网站",
+    "name": "Hugo \u002b Github Pages 博客搭建方案",
+    "headline": "Hugo \u002b Github Pages 博客搭建方案",
     
-    "inLanguage": "en",
-    "url" : "https://fairchild26.github.io/en/website/firebase/",
+    "inLanguage": "zh-cn",
+    "url" : "https://fairchild26.github.io/website/ghpages/",
     "author" : {
       "@type": "Person",
       "name": "Fairchild"
     },
     "copyrightYear": "2026",
-    "dateCreated": "2026-02-06T00:00:00\u002b00:00",
-    "datePublished": "2026-02-06T00:00:00\u002b00:00",
+    "dateCreated": "2026-03-13T00:00:00\u002b00:00",
+    "datePublished": "2026-03-13T00:00:00\u002b00:00",
     
-    "dateModified": "2026-02-06T00:00:00\u002b00:00",
+    "dateModified": "2026-03-13T00:00:00\u002b00:00",
     
-    "keywords": ["Firabase","Hugo"],
+    "keywords": ["Git","SSH","Go","Hugo"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "116"
+    "wordCount": "781"
   }]
   </script>
 
@@ -353,7 +341,7 @@
         class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 focus:translate-y-0 dark:bg-neutral-600"
         href="#main-content">
         <span class="font-bold text-primary-600 pe-2 dark:text-primary-400">&darr;</span>
-        Skip to main content
+        跳过正文
       </a>
     </div>
     
@@ -369,7 +357,7 @@
     
     
       <div>
-        <a href="/en/" class="flex">
+        <a href="/" class="flex">
           <span class="sr-only"></span>
           
             <img
@@ -384,7 +372,7 @@
     
   
   
-    <a href="/en/" class="text-base font-medium truncate min-w-0 shrink">
+    <a href="/" class="text-base font-medium truncate min-w-0 shrink">
       
     </a>
   
@@ -396,11 +384,11 @@
       
   
     <a
-      href="/en/cpp/"
+      href="/cpp/"
       
       class="flex items-center bf-icon-color-hover"
       aria-label="C&#43;&#43;"
-      title="C&#43;&#43; Learning">
+      title="C&#43;&#43; 学习">
       
       
         <span class="text-base font-medium break-normal">
@@ -419,12 +407,12 @@
           
             tabindex="0"
           
-          aria-label="Project"
+          aria-label="项目"
           class="flex items-center text-base font-medium bf-icon-color-hover"
           title="">
           
           <span class="text-bg font-bg break-normal" title="">
-            Project
+            项目
           </span>
           <span>
             <span class="relative block icon"><svg
@@ -448,13 +436,13 @@
           <div class="flex flex-col space-y-3">
             
               <a
-                href="/en/website/"
+                href="/website/"
                 
-                aria-label="Personal Website"
+                aria-label="个人网站"
                 class="flex items-center bf-icon-color-hover">
                 
-                <span class="text-sm font-sm" title="Personal Website">
-                  Personal Website
+                <span class="text-sm font-sm" title="个人网站">
+                  个人网站
                 </span>
               </a>
             
@@ -473,12 +461,12 @@
           
             tabindex="0"
           
-          aria-label="About"
+          aria-label="关于"
           class="flex items-center text-base font-medium bf-icon-color-hover"
           title="">
           
           <span class="text-bg font-bg break-normal" title="">
-            About
+            关于
           </span>
           <span>
             <span class="relative block icon"><svg
@@ -502,13 +490,13 @@
           <div class="flex flex-col space-y-3">
             
               <a
-                href="/en/about/tumunizi/"
+                href="/about/tumunizi/"
                 
-                aria-label="TuMuNiZi"
+                aria-label="土木逆子"
                 class="flex items-center bf-icon-color-hover">
                 
-                <span class="text-sm font-sm" title="A Civil Engineering Guy Who Quit and Ran: Taking Off My Safety Helmet, I&#39;m Climbing the &#39;Scaffolding&#39; of the Internet">
-                  TuMuNiZi
+                <span class="text-sm font-sm" title="土木逆子：摘下安全帽，我要爬上互联网的 “脚手架”">
+                  土木逆子
                 </span>
               </a>
             
@@ -522,15 +510,15 @@
       
   
     <a
-      href="/en/message/"
+      href="/message/"
       
       class="flex items-center bf-icon-color-hover"
-      aria-label="Message"
-      title="Guestbook">
+      aria-label="留言"
+      title="留言板">
       
       
         <span class="text-base font-medium break-normal">
-          Message
+          留言
         </span>
       
     </a>
@@ -540,33 +528,6 @@
   
 
   
-  <div class="translation nested-menu">
-    <button class="cursor-pointer flex items-center">
-      <span class="me-1">
-        <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
-    <path fill="currentColor" d="M0 128C0 92.7 28.7 64 64 64H256h48 16H576c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H320 304 256 64c-35.3 0-64-28.7-64-64V128zm320 0V384H576V128H320zM178.3 175.9c-3.2-7.2-10.4-11.9-18.3-11.9s-15.1 4.7-18.3 11.9l-64 144c-4.5 10.1 .1 21.9 10.2 26.4s21.9-.1 26.4-10.2l8.9-20.1h73.6l8.9 20.1c4.5 10.1 16.3 14.6 26.4 10.2s14.6-16.3 10.2-26.4l-64-144zM160 233.2L179 276H141l19-42.8zM448 164c11 0 20 9 20 20v4h44 16c11 0 20 9 20 20s-9 20-20 20h-2l-1.6 4.5c-8.9 24.4-22.4 46.6-39.6 65.4c.9 .6 1.8 1.1 2.7 1.6l18.9 11.3c9.5 5.7 12.5 18 6.9 27.4s-18 12.5-27.4 6.9l-18.9-11.3c-4.5-2.7-8.8-5.5-13.1-8.5c-10.6 7.5-21.9 14-34 19.4l-3.6 1.6c-10.1 4.5-21.9-.1-26.4-10.2s.1-21.9 10.2-26.4l3.6-1.6c6.4-2.9 12.6-6.1 18.5-9.8l-12.2-12.2c-7.8-7.8-7.8-20.5 0-28.3s20.5-7.8 28.3 0l14.6 14.6 .5 .5c12.4-13.1 22.5-28.3 29.8-45H448 376c-11 0-20-9-20-20s9-20 20-20h52v-4c0-11 9-20 20-20z"/></svg></span>
-      </span>
-      <span class="text-sm font-medium bf-icon-color-hover" title="Using Firebase to Get Article Views and Likes">English</span>
-    </button>
-    <ul class="menuhide">
-      <li class="rounded-xl backdrop-blur shadow-2xl p-2 flex flex-col gap-1">
-        
-          <a href="/website/firebase/" class="flex items-center bf-icon-color-hover px-3 py-1">
-            <span class="text-sm font-sm" title="使用 Firebase 获取文章浏览和点赞数据">
-              简体中文
-            </span>
-          </a>
-        
-          <a href="/en/website/firebase/" class="flex items-center bf-icon-color-hover px-3 py-1">
-            <span class="text-sm font-sm" title="Using Firebase to Get Article Views and Likes">
-              English
-            </span>
-          </a>
-        
-      </li>
-    </ul>
-  </div>
-
 
   
 
@@ -575,7 +536,7 @@
       id="search-button"
       aria-label="Search"
       class="text-base bf-icon-color-hover"
-      title="Search (/)">
+      title="搜索 (/)">
       <span class="relative block icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
 </span>
     </button>
@@ -611,7 +572,7 @@
       id="search-button-mobile"
       aria-label="Search"
       class="flex items-center justify-center bf-icon-color-hover"
-      title="Search (/)">
+      title="搜索 (/)">
       <span class="relative block icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
 </span>
     </button>
@@ -659,12 +620,12 @@
     
     <div class="px-2">
       <a
-        href="/en/cpp/"
+        href="/cpp/"
         aria-label="C&#43;&#43;"
         
         class="flex items-center gap-4 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
         
-        <span title="C&#43;&#43; Learning" class="text-2xl font-bold tracking-tight">
+        <span title="C&#43;&#43; 学习" class="text-2xl font-bold tracking-tight">
           C++
         </span>
         
@@ -677,16 +638,16 @@
     <div class="px-2">
       <a
         href=""
-        aria-label="Project"
+        aria-label="项目"
         
         class="flex items-center gap-4 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
         
         <span title="" class="text-2xl font-bold tracking-tight">
-          Project
+          项目
         </span>
         
           <label
-            for="fullscreen-submenu-project"
+            for="fullscreen-submenu-项目"
             class="ms-auto flex items-center justify-center h-10 w-10 cursor-pointer rounded-lg bf-icon-color-hover border bf-border-color bf-border-color-hover">
             <span class="relative block icon"><svg
   xmlns="http://www.w3.org/2000/svg"
@@ -706,7 +667,7 @@
       </a>
 
       
-        <input checked type="checkbox" id="fullscreen-submenu-project" autocomplete="off" class="hidden peer/full">
+        <input checked type="checkbox" id="fullscreen-submenu-项目" autocomplete="off" class="hidden peer/full">
 
         <div
           class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-300 peer-checked/full:grid-rows-[1fr]">
@@ -714,13 +675,13 @@
             <div class="ms-7 mt-4">
               
                 <a
-                  href="/en/website/"
-                  aria-label="Personal Website"
+                  href="/website/"
+                  aria-label="个人网站"
                   
                   class="flex items-center gap-3 p-2 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
                   
-                  <span title="Personal Website" class="text-lg">
-                    Personal Website
+                  <span title="个人网站" class="text-lg">
+                    个人网站
                   </span>
                 </a>
               
@@ -734,16 +695,16 @@
     <div class="px-2">
       <a
         href=""
-        aria-label="About"
+        aria-label="关于"
         
         class="flex items-center gap-4 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
         
         <span title="" class="text-2xl font-bold tracking-tight">
-          About
+          关于
         </span>
         
           <label
-            for="fullscreen-submenu-about"
+            for="fullscreen-submenu-关于"
             class="ms-auto flex items-center justify-center h-10 w-10 cursor-pointer rounded-lg bf-icon-color-hover border bf-border-color bf-border-color-hover">
             <span class="relative block icon"><svg
   xmlns="http://www.w3.org/2000/svg"
@@ -763,7 +724,7 @@
       </a>
 
       
-        <input checked type="checkbox" id="fullscreen-submenu-about" autocomplete="off" class="hidden peer/full">
+        <input checked type="checkbox" id="fullscreen-submenu-关于" autocomplete="off" class="hidden peer/full">
 
         <div
           class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-300 peer-checked/full:grid-rows-[1fr]">
@@ -771,13 +732,13 @@
             <div class="ms-7 mt-4">
               
                 <a
-                  href="/en/about/tumunizi/"
-                  aria-label="TuMuNiZi"
+                  href="/about/tumunizi/"
+                  aria-label="土木逆子"
                   
                   class="flex items-center gap-3 p-2 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
                   
-                  <span title="A Civil Engineering Guy Who Quit and Ran: Taking Off My Safety Helmet, I&#39;m Climbing the &#39;Scaffolding&#39; of the Internet" class="text-lg">
-                    TuMuNiZi
+                  <span title="土木逆子：摘下安全帽，我要爬上互联网的 “脚手架”" class="text-lg">
+                    土木逆子
                   </span>
                 </a>
               
@@ -790,13 +751,13 @@
     
     <div class="px-2">
       <a
-        href="/en/message/"
-        aria-label="Message"
+        href="/message/"
+        aria-label="留言"
         
         class="flex items-center gap-4 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
         
-        <span title="Guestbook" class="text-2xl font-bold tracking-tight">
-          Message
+        <span title="留言板" class="text-2xl font-bold tracking-tight">
+          留言
         </span>
         
       </a>
@@ -813,33 +774,6 @@
     <div
       class="flex flex-wrap items-center [&_span]:text-2xl [&_.translation_button_.icon]:text-4xl! [&_.translation_button_span]:text-base! [&_.translation_.menuhide_span]:text-sm! gap-x-6 ps-2 mt-8 pt-8 border-t bf-border-color">
       
-  <div class="translation nested-menu">
-    <button class="cursor-pointer flex items-center">
-      <span class="me-1">
-        <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
-    <path fill="currentColor" d="M0 128C0 92.7 28.7 64 64 64H256h48 16H576c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H320 304 256 64c-35.3 0-64-28.7-64-64V128zm320 0V384H576V128H320zM178.3 175.9c-3.2-7.2-10.4-11.9-18.3-11.9s-15.1 4.7-18.3 11.9l-64 144c-4.5 10.1 .1 21.9 10.2 26.4s21.9-.1 26.4-10.2l8.9-20.1h73.6l8.9 20.1c4.5 10.1 16.3 14.6 26.4 10.2s14.6-16.3 10.2-26.4l-64-144zM160 233.2L179 276H141l19-42.8zM448 164c11 0 20 9 20 20v4h44 16c11 0 20 9 20 20s-9 20-20 20h-2l-1.6 4.5c-8.9 24.4-22.4 46.6-39.6 65.4c.9 .6 1.8 1.1 2.7 1.6l18.9 11.3c9.5 5.7 12.5 18 6.9 27.4s-18 12.5-27.4 6.9l-18.9-11.3c-4.5-2.7-8.8-5.5-13.1-8.5c-10.6 7.5-21.9 14-34 19.4l-3.6 1.6c-10.1 4.5-21.9-.1-26.4-10.2s.1-21.9 10.2-26.4l3.6-1.6c6.4-2.9 12.6-6.1 18.5-9.8l-12.2-12.2c-7.8-7.8-7.8-20.5 0-28.3s20.5-7.8 28.3 0l14.6 14.6 .5 .5c12.4-13.1 22.5-28.3 29.8-45H448 376c-11 0-20-9-20-20s9-20 20-20h52v-4c0-11 9-20 20-20z"/></svg></span>
-      </span>
-      <span class="text-sm font-medium bf-icon-color-hover" title="Using Firebase to Get Article Views and Likes">English</span>
-    </button>
-    <ul class="menuhide">
-      <li class="rounded-xl backdrop-blur shadow-2xl p-2 flex flex-col gap-1">
-        
-          <a href="/website/firebase/" class="flex items-center bf-icon-color-hover px-3 py-1">
-            <span class="text-sm font-sm" title="使用 Firebase 获取文章浏览和点赞数据">
-              简体中文
-            </span>
-          </a>
-        
-          <a href="/en/website/firebase/" class="flex items-center bf-icon-color-hover px-3 py-1">
-            <span class="text-sm font-sm" title="Using Firebase to Get Article Views and Likes">
-              English
-            </span>
-          </a>
-        
-      </li>
-    </ul>
-  </div>
-
 
 
       
@@ -978,22 +912,22 @@
     
   
   <li class="hidden">
-    <a class="hover:underline decoration-neutral-300 dark:underline-neutral-600" href="/en/"
-      >Welcome to my world!</a
+    <a class="hover:underline decoration-neutral-300 dark:underline-neutral-600" href="/"
+      >欢迎来到我的世界！</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
   
   <li class="inline">
-    <a class="hover:underline decoration-neutral-300 dark:underline-neutral-600" href="/en/website/"
-      >Personal Website</a
+    <a class="hover:underline decoration-neutral-300 dark:underline-neutral-600" href="/website/"
+      >个人网站</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
   
   <li class="hidden">
-    <a class="hover:underline decoration-neutral-300 dark:underline-neutral-600" href="/en/website/firebase/"
-      >Using Firebase to Get Article Views and Likes</a
+    <a class="hover:underline decoration-neutral-300 dark:underline-neutral-600" href="/website/ghpages/"
+      >Hugo &#43; Github Pages 博客搭建方案</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -1002,7 +936,7 @@
 
       
       <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-        Using Firebase to Get Article Views and Likes
+        Hugo + Github Pages 博客搭建方案
       </h1>
       <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
         
@@ -1062,15 +996,12 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2026-02-06T00:00:00&#43;00:00">February 6, 2026</time><span class="px-2 text-primary-500">&middot;</span><span>116 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span><span class="px-2 text-primary-500">&middot;</span><span>
+      <time datetime="2026-03-13T00:00:00&#43;00:00">2026 年 3 月 13 日</time><span class="px-2 text-primary-500">&middot;</span><span>781 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">2 分钟</span><span class="px-2 text-primary-500">&middot;</span><span>
   
   
     
     
       
-      
-        
-        
       
         
         
@@ -1079,7 +1010,7 @@
     
   
   <span
-    id="views_website/firebase/index.md"
+    id="views_website/ghpages/index.md"
     class="animate-pulse inline-block text-transparent max-h-3 rounded-full -mt-[2px] align-middle bg-neutral-300 dark:bg-neutral-400"
     title="views"
     >loading</span
@@ -1097,14 +1028,11 @@
         
         
       
-        
-        
-      
       
     
   
   <span
-    id="likes_website/firebase/index.md"
+    id="likes_website/ghpages/index.md"
     class="animate-pulse inline-block text-transparent max-h-3 rounded-full -mt-[2px] align-middle bg-neutral-300 dark:bg-neutral-400"
     title="likes"
     >loading</span
@@ -1130,9 +1058,9 @@
   <span
     id="zen-mode-button"
     class="text-lg hover:text-primary-500"
-    title="Enable zen mode"
-    data-title-i18n-disable="Enable zen mode"
-    data-title-i18n-enable="Disable zen mode">
+    title="启用阅读模式"
+    data-title-i18n-disable="启用阅读模式"
+    data-title-i18n-enable="停用阅读模式">
     <span class="inline-block align-text-bottom"><span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50px" height="50px">
     <path fill="currentColor" d="M 12.980469 4 C 9.1204688 4 5.9804688 7.14 5.9804688 11 L 6 26 L 9.9804688 26 L 9.9804688 11 C 9.9804688 9.35 11.320469 8 12.980469 8 L 40.019531 8 C 41.679531 8 43.019531 9.35 43.019531 11 L 43.019531 39 C 43.019531 40.65 41.679531 42 40.019531 42 L 29 42 C 29 43.54 28.420938 44.94 27.460938 46 L 40.019531 46 C 43.879531 46 47.019531 42.86 47.019531 39 L 47.019531 11 C 47.019531 7.14 43.879531 4 40.019531 4 L 12.980469 4 z M 7 28 C 4.794 28 3 29.794 3 32 L 3 42 C 3 44.206 4.794 46 7 46 L 23 46 C 25.206 46 27 44.206 27 42 L 27 32 C 27 29.794 25.206 28 23 28 L 7 28 z M 7 32 L 23 32 L 23.001953 42 L 7 42 L 7 32 z"/>
 </svg></span></span>
@@ -1162,17 +1090,37 @@
         
           
             
-              <a class="relative mt-[0.5rem] me-2" href="/en/tags/firabase/">
+              <a class="relative mt-[0.5rem] me-2" href="/tags/git/">
                 <span class="flex cursor-pointer">
   <span
     class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Firabase
+    Git
   </span>
 </span>
 
               </a>
             
-              <a class="relative mt-[0.5rem] me-2" href="/en/tags/hugo/">
+              <a class="relative mt-[0.5rem] me-2" href="/tags/ssh/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    SSH
+  </span>
+</span>
+
+              </a>
+            
+              <a class="relative mt-[0.5rem] me-2" href="/tags/go/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Go
+  </span>
+</span>
+
+              </a>
+            
+              <a class="relative mt-[0.5rem] me-2" href="/tags/hugo/">
                 <span class="flex cursor-pointer">
   <span
     class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
@@ -1234,14 +1182,14 @@
   <div class="place-self-center">
     
       <div class="text-[0.6rem] uppercase leading-3 text-neutral-500 dark:text-neutral-400">
-        Author
+        作者
       </div>
       <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
         Fairchild
       </div>
     
     
-      <div class="text-sm text-neutral-700 dark:text-neutral-400">A civil engineering guy who quit and ran.</div>
+      <div class="text-sm text-neutral-700 dark:text-neutral-400">土木逆子</div>
     
     <div class="text-2xl sm:text-lg">
   <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
@@ -1517,21 +1465,22 @@ function closePhone(){
   class="toc-right mt-0 overflow-y-auto overscroll-contain bf-scrollbar rounded-lg -ms-5 ps-5 pe-2 hidden lg:block">
   <summary
     class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 -ms-5 ps-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
-    Table of Contents
+    目录
   </summary>
   <div
     class="min-w-[220px] py-2 border-dotted border-s-1 -ms-5 ps-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li>
+    <li><a href="#1-创建公开仓库">1 创建公开仓库</a></li>
+    <li><a href="#2-生成站点内容">2 生成站点内容</a></li>
+    <li><a href="#3-搭建-linux-环境">3 搭建 Linux 环境</a>
       <ul>
-        <li><a href="#step-1-create-a-new-project">Step 1: Create a new project</a></li>
-        <li><a href="#step-2-get-the-api">Step 2: Get the API</a></li>
-        <li><a href="#step-3-create-the-database">Step 3: Create the Database</a></li>
-        <li><a href="#step-4-enable-anonymous-access">Step 4: Enable Anonymous Access</a></li>
-        <li><a href="#step-5-modify-paramstoml">Step 5: Modify <code>params.toml</code></a></li>
+        <li><a href="#31-git-用户身份设置">3.1 Git 用户身份设置</a></li>
+        <li><a href="#32-github-ssh-密钥">3.2 Github SSH 密钥</a></li>
+        <li><a href="#33-go-和-hugo-安装">3.3 Go 和 Hugo 安装</a></li>
       </ul>
     </li>
+    <li><a href="#4-浏览更多教程">4 浏览更多教程</a></li>
   </ul>
 </nav>
   </div>
@@ -1539,21 +1488,22 @@ function closePhone(){
 <details class="toc-inside mt-0 overflow-hidden rounded-lg -ms-5 ps-5 lg:hidden">
   <summary
     class="py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 -ms-5 ps-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
-    Table of Contents
+    目录
   </summary>
   <div
     class="py-2 border-dotted border-neutral-300 border-s-1 -ms-5 ps-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li>
+    <li><a href="#1-创建公开仓库">1 创建公开仓库</a></li>
+    <li><a href="#2-生成站点内容">2 生成站点内容</a></li>
+    <li><a href="#3-搭建-linux-环境">3 搭建 Linux 环境</a>
       <ul>
-        <li><a href="#step-1-create-a-new-project">Step 1: Create a new project</a></li>
-        <li><a href="#step-2-get-the-api">Step 2: Get the API</a></li>
-        <li><a href="#step-3-create-the-database">Step 3: Create the Database</a></li>
-        <li><a href="#step-4-enable-anonymous-access">Step 4: Enable Anonymous Access</a></li>
-        <li><a href="#step-5-modify-paramstoml">Step 5: Modify <code>params.toml</code></a></li>
+        <li><a href="#31-git-用户身份设置">3.1 Git 用户身份设置</a></li>
+        <li><a href="#32-github-ssh-密钥">3.2 Github SSH 密钥</a></li>
+        <li><a href="#33-go-和-hugo-安装">3.3 Go 和 Hugo 安装</a></li>
       </ul>
     </li>
+    <li><a href="#4-浏览更多教程">4 浏览更多教程</a></li>
   </ul>
 </nav>
   </div>
@@ -1674,16 +1624,16 @@ function closePhone(){
   <summary
     class="py-1 text-lg font-semibold cursor-pointer bg-primary-200 text-neutral-800 -ms-5 ps-5 dark:bg-primary-800 dark:text-neutral-100 min-w-full">
     website -
-    This article is part of a series.
+    这篇文章属于一个选集。
   </summary>
   
   
     
       <div
         class="py-1 border-dotted border-neutral-300 border-s-1 -ms-5 ps-5 dark:border-neutral-600">
-        <a href="/en/website/blowfish/">
-          Part 1:
-          Building a Personal Blog with Hugo
+        <a href="/website/blowfish/">
+          § 1:
+          使用 Hugo 搭建个人博客
         </a>
       </div>
     
@@ -1691,9 +1641,9 @@ function closePhone(){
     
       <div
         class="py-1 border-dotted border-neutral-300 border-s-1 -ms-5 ps-5 dark:border-neutral-600">
-        <a href="/en/website/giscus/">
-          Part 2:
-          How to Add a Giscus Comment System to a Hugo Blog
+        <a href="/website/giscus/">
+          § 2:
+          Hugo 博客如何添加 Giscus 评论系统
         </a>
       </div>
     
@@ -1701,18 +1651,28 @@ function closePhone(){
     
       <div
         class="py-1 border-dotted border-neutral-300 border-s-1 -ms-5 ps-5 dark:border-neutral-600">
-        Part 3:
-        This Article
+        <a href="/website/firebase/">
+          § 3:
+          使用 Firebase 获取文章浏览和点赞数据
+        </a>
       </div>
     
   
     
       <div
         class="py-1 border-dotted border-neutral-300 border-s-1 -ms-5 ps-5 dark:border-neutral-600">
-        <a href="/en/website/sakana/">
-          Part 4:
-          Web Toy: &#39;Sakana!&#39; Lycoris Radiata Simulator
+        <a href="/website/sakana/">
+          § 4:
+          网页玩具：「Sakana!」石蒜模拟器
         </a>
+      </div>
+    
+  
+    
+      <div
+        class="py-1 border-dotted border-neutral-300 border-s-1 -ms-5 ps-5 dark:border-neutral-600">
+        § 5:
+        本文
       </div>
     
   
@@ -1721,493 +1681,211 @@ function closePhone(){
 
 
         <div class="article-content max-w-prose mb-20"> 
-          <script>
-    window.onload = function() {
-        var zenButton = document.getElementById('zen-mode-button');
-        zenButton.click();
-    };
-</script>
-<blockquote><p>The <a href="https://blowfish.page/docs/firebase-views/"  target="_blank" rel="noreferrer">Blowfish Theme Manual</a> has provided a detailed introduction to using <a href="https://firebase.google.com/"  target="_blank" rel="noreferrer">Firebase</a>, demonstrating how to dynamically obtain article views and likes. This article will demonstrate this with screenshots.</p></blockquote>
-<h3 class="relative group">Step 1: Create a new project
-    <div id="step-1-create-a-new-project" class="anchor"></div>
+          <p>本文重点讲述如何将 Hugo 生成的静态网站部署到 Github Pages。内容建设参考：</p>
+
+
+
+
+
+  
+
+
+
+
+<h2 class="relative group">1 创建公开仓库
+    <div id="1-创建公开仓库" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#step-1-create-a-new-project" aria-label="Anchor">#</a>
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#1-%e5%88%9b%e5%bb%ba%e5%85%ac%e5%bc%80%e4%bb%93%e5%ba%93" aria-label="锚点">#</a>
     </span>
     
-</h3>
-<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl">https://console.firebase.google.com/</span></span></code></pre></div></div>
-<!-- 此处短代码，图片路径之间没有空格 -->
+</h2>
+<p>创建公开仓库 <code>fairchild26.github.io</code><br>
+获得 Git 教程：</p>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># …or create a new repository on the command line</span>
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;# fairchild26.github.io&#34;</span> &gt;&gt; README.md
+</span></span><span class="line"><span class="cl">git init
+</span></span><span class="line"><span class="cl">git add README.md
+</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;first commit&#34;</span>
+</span></span><span class="line"><span class="cl">git branch -M main
+</span></span><span class="line"><span class="cl">git remote add origin git@github.com:fairchild26/fairchild26.github.io.git
+</span></span><span class="line"><span class="cl">git push -u origin main
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># …or push an existing repository from the command line</span>
+</span></span><span class="line"><span class="cl">git remote add origin git@github.com:fairchild26/fairchild26.github.io.git
+</span></span><span class="line"><span class="cl">git branch -M main
+</span></span><span class="line"><span class="cl">git push -u origin main</span></span></code></pre></div></div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-
-<div class="width-patch"></div>
-<div
-  id="carousel-21edea924d86ee923f4375c344efdce1-1773382841181580587"
-  class="relative"
-  data-twe-carousel-init
-  data-twe-ride="carousel"
-  data-twe-interval="0">
-  <div
-    class="absolute right-0 bottom-0 left-0 z-2 mx-[15%] mb-10 flex list-none justify-center p-0"
-    data-twe-carousel-indicators>
-    
-    
-  </div>
-
-  <div class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
-    
-  </div>
-
-  <button
-    class="absolute top-0 bottom-0 left-0 z-2 flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:no-underline hover:opacity-90 hover:outline-none focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
-    type="button"
-    data-twe-target="#carousel-21edea924d86ee923f4375c344efdce1-1773382841181580587"
-    data-twe-slide="prev">
-    <span class="inline-block h-8 w-8">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke-width="4.5"
-        stroke="currentColor"
-        class="h-6 w-6">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
-      </svg>
-    </span>
-    <span
-      class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
-      >Previous</span
-    >
-  </button>
-
-  <button
-    class="absolute top-0 bottom-0 right-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:no-underline hover:opacity-90 hover:outline-none focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
-    type="button"
-    data-twe-target="#carousel-21edea924d86ee923f4375c344efdce1-1773382841181580587"
-    data-twe-slide="next">
-    <span class="inline-block h-8 w-8">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke-width="4.5"
-        stroke="currentColor"
-        class="h-6 w-6">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-      </svg>
-    </span>
-    <span
-      class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
-      >Next</span
-    >
-  </button>
-</div>
-
-
-<h3 class="relative group">Step 2: Get the API
-    <div id="step-2-get-the-api" class="anchor"></div>
+<h2 class="relative group">2 生成站点内容
+    <div id="2-生成站点内容" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#step-2-get-the-api" aria-label="Anchor">#</a>
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#2-%e7%94%9f%e6%88%90%e7%ab%99%e7%82%b9%e5%86%85%e5%ae%b9" aria-label="锚点">#</a>
     </span>
     
-</h3>
+</h2>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hugo
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> public
+</span></span><span class="line"><span class="cl">git init
+</span></span><span class="line"><span class="cl">git remote add origin git@github.com:fairchild26/fairchild26.github.io.git
+</span></span><span class="line"><span class="cl">git add .
+</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;first commit&#34;</span>
+</span></span><span class="line"><span class="cl">git push -u origin master</span></span></code></pre></div></div>
+<p>在 Github Pages 页面选择 Source <code>Deploy from a branch</code>, Branch <code>master /(root)</code></p>
+<figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="auto"
+    alt="alt text"
+    width="1130"
+    height="606"
+    src="/website/ghpages/image_hu_315b66402046b58f.png"
+    srcset="/website/ghpages/image_hu_315b66402046b58f.png 800w, /website/ghpages/image.png 1280w"
+    sizes="(min-width: 768px) 50vw, 65vw"
+    data-zoom-src="/website/ghpages/image.png"></figure>
 
-
-
-
-
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-
-<div class="width-patch"></div>
-<div
-  id="carousel-7fad19c8b7bf81ca8d31245f08fe9db2-1773382841181931674"
-  class="relative"
-  data-twe-carousel-init
-  data-twe-ride="carousel"
-  data-twe-interval="0">
-  <div
-    class="absolute right-0 bottom-0 left-0 z-2 mx-[15%] mb-10 flex list-none justify-center p-0"
-    data-twe-carousel-indicators>
-    
-    
-  </div>
-
-  <div class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
-    
-  </div>
-
-  <button
-    class="absolute top-0 bottom-0 left-0 z-2 flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:no-underline hover:opacity-90 hover:outline-none focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
-    type="button"
-    data-twe-target="#carousel-7fad19c8b7bf81ca8d31245f08fe9db2-1773382841181931674"
-    data-twe-slide="prev">
-    <span class="inline-block h-8 w-8">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke-width="4.5"
-        stroke="currentColor"
-        class="h-6 w-6">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
-      </svg>
-    </span>
-    <span
-      class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
-      >Previous</span
-    >
-  </button>
-
-  <button
-    class="absolute top-0 bottom-0 right-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:no-underline hover:opacity-90 hover:outline-none focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
-    type="button"
-    data-twe-target="#carousel-7fad19c8b7bf81ca8d31245f08fe9db2-1773382841181931674"
-    data-twe-slide="next">
-    <span class="inline-block h-8 w-8">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke-width="4.5"
-        stroke="currentColor"
-        class="h-6 w-6">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-      </svg>
-    </span>
-    <span
-      class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
-      >Next</span
-    >
-  </button>
-</div>
-
-
-<h3 class="relative group">Step 3: Create the Database
-    <div id="step-3-create-the-database" class="anchor"></div>
+<h2 class="relative group">3 搭建 Linux 环境
+    <div id="3-搭建-linux-环境" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#step-3-create-the-database" aria-label="Anchor">#</a>
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#3-%e6%90%ad%e5%bb%ba-linux-%e7%8e%af%e5%a2%83" aria-label="锚点">#</a>
     </span>
     
-</h3>
+</h2>
+<p>一般地，使用 <code>hugo</code> 命令生成的站点内容 <code>public/</code> 可以直接用于发表，但笔者发现，将在 Windows cmd.exe 下生成的内容提交到仓库，得到的网页没有任何格式可言，文字段落和图片等资源全部按行展示，没有左右、缺乏渲染。</p>
+<p><a href="https://github.com/reuixiy/hugo-theme-meme/issues/206"  target="_blank" rel="noreferrer">参考讨论</a>，决定在 linux 环境中生成内容。</p>
 
-
-
-
-
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-
-<div class="width-patch"></div>
-<div
-  id="carousel-5319bfdf103305cf2145e3fb3d37d4bc-1773382841182167205"
-  class="relative"
-  data-twe-carousel-init
-  data-twe-ride="carousel"
-  data-twe-interval="0">
-  <div
-    class="absolute right-0 bottom-0 left-0 z-2 mx-[15%] mb-10 flex list-none justify-center p-0"
-    data-twe-carousel-indicators>
-    
-    
-  </div>
-
-  <div class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
-    
-  </div>
-
-  <button
-    class="absolute top-0 bottom-0 left-0 z-2 flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:no-underline hover:opacity-90 hover:outline-none focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
-    type="button"
-    data-twe-target="#carousel-5319bfdf103305cf2145e3fb3d37d4bc-1773382841182167205"
-    data-twe-slide="prev">
-    <span class="inline-block h-8 w-8">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke-width="4.5"
-        stroke="currentColor"
-        class="h-6 w-6">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
-      </svg>
-    </span>
-    <span
-      class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
-      >Previous</span
-    >
-  </button>
-
-  <button
-    class="absolute top-0 bottom-0 right-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:no-underline hover:opacity-90 hover:outline-none focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
-    type="button"
-    data-twe-target="#carousel-5319bfdf103305cf2145e3fb3d37d4bc-1773382841182167205"
-    data-twe-slide="next">
-    <span class="inline-block h-8 w-8">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke-width="4.5"
-        stroke="currentColor"
-        class="h-6 w-6">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-      </svg>
-    </span>
-    <span
-      class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
-      >Next</span
-    >
-  </button>
-</div>
-
-
-<h3 class="relative group">Step 4: Enable Anonymous Access
-    <div id="step-4-enable-anonymous-access" class="anchor"></div>
+<h3 class="relative group">3.1 Git 用户身份设置
+    <div id="31-git-用户身份设置" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#step-4-enable-anonymous-access" aria-label="Anchor">#</a>
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#31-git-%e7%94%a8%e6%88%b7%e8%ba%ab%e4%bb%bd%e8%ae%be%e7%bd%ae" aria-label="锚点">#</a>
     </span>
     
 </h3>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># 设置全局邮箱 和 全局用户名</span>
+</span></span><span class="line"><span class="cl">git config --global user.email <span class="s2">&#34;your_email@example.com&#34;</span>
+</span></span><span class="line"><span class="cl">git config --global user.name <span class="s2">&#34;Your Name&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 验证配置是否生效</span>
+</span></span><span class="line"><span class="cl">git config --global --get user.email
+</span></span><span class="line"><span class="cl">git config --global --get user.name</span></span></code></pre></div></div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-
-
-<div class="width-patch"></div>
-<div
-  id="carousel-b4feba53b2ef9f352aba40595ab4c47a-1773382841182431200"
-  class="relative"
-  data-twe-carousel-init
-  data-twe-ride="carousel"
-  data-twe-interval="0">
-  <div
-    class="absolute right-0 bottom-0 left-0 z-2 mx-[15%] mb-10 flex list-none justify-center p-0"
-    data-twe-carousel-indicators>
-    
-    
-  </div>
-
-  <div class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
-    
-  </div>
-
-  <button
-    class="absolute top-0 bottom-0 left-0 z-2 flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:no-underline hover:opacity-90 hover:outline-none focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
-    type="button"
-    data-twe-target="#carousel-b4feba53b2ef9f352aba40595ab4c47a-1773382841182431200"
-    data-twe-slide="prev">
-    <span class="inline-block h-8 w-8">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke-width="4.5"
-        stroke="currentColor"
-        class="h-6 w-6">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
-      </svg>
-    </span>
-    <span
-      class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
-      >Previous</span
-    >
-  </button>
-
-  <button
-    class="absolute top-0 bottom-0 right-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:no-underline hover:opacity-90 hover:outline-none focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
-    type="button"
-    data-twe-target="#carousel-b4feba53b2ef9f352aba40595ab4c47a-1773382841182431200"
-    data-twe-slide="next">
-    <span class="inline-block h-8 w-8">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke-width="4.5"
-        stroke="currentColor"
-        class="h-6 w-6">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-      </svg>
-    </span>
-    <span
-      class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
-      >Next</span
-    >
-  </button>
-</div>
-
-
-<h3 class="relative group">Step 5: Modify <code>params.toml</code>
-    <div id="step-5-modify-paramstoml" class="anchor"></div>
+<h3 class="relative group">3.2 Github SSH 密钥
+    <div id="32-github-ssh-密钥" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#step-5-modify-paramstoml" aria-label="Anchor">#</a>
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#32-github-ssh-%e5%af%86%e9%92%a5" aria-label="锚点">#</a>
     </span>
     
 </h3>
-<div class="admonition relative overflow-hidden rounded-lg border-l-4 my-3 px-4 py-3 shadow-sm" data-type="tip">
-      <div class="flex items-center gap-2 font-semibold text-inherit">
-        <div class="flex shrink-0 h-5 w-5 items-center justify-center text-lg"><span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M112.1 454.3c0 6.297 1.816 12.44 5.284 17.69l17.14 25.69c5.25 7.875 17.17 14.28 26.64 14.28h61.67c9.438 0 21.36-6.401 26.61-14.28l17.08-25.68c2.938-4.438 5.348-12.37 5.348-17.7L272 415.1h-160L112.1 454.3zM191.4 .0132C89.44 .3257 16 82.97 16 175.1c0 44.38 16.44 84.84 43.56 115.8c16.53 18.84 42.34 58.23 52.22 91.45c.0313 .25 .0938 .5166 .125 .7823h160.2c.0313-.2656 .0938-.5166 .125-.7823c9.875-33.22 35.69-72.61 52.22-91.45C351.6 260.8 368 220.4 368 175.1C368 78.61 288.9-.2837 191.4 .0132zM192 96.01c-44.13 0-80 35.89-80 79.1C112 184.8 104.8 192 96 192S80 184.8 80 176c0-61.76 50.25-111.1 112-111.1c8.844 0 16 7.159 16 16S200.8 96.01 192 96.01z"/></svg>
-</span></div>
-        <div class="grow">
-          Tip
-        </div>
-      </div><div class="admonition-content mt-3 text-base leading-relaxed text-inherit"><ul>
-<li>Set <code>showViews = true</code> and <code>showLikes = true</code></li>
-<li>Add The <code>[firebase]</code> configuration information; when copying, make sure there&rsquo;s no comma at the end of each line.</li>
-<li>Start the <code>hugo server</code> service</li>
-<li>If there&rsquo;s no response, close cmd, clear your browser cache, and restart the service.</li>
-</ul></div></div><p><strong><center>Try it now!</center></strong></p>
+<p><a href="https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account?platform=linux"  target="_blank" rel="noreferrer">参考 Github 文档</a></p>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># 生成 SSH 密钥</span>
+</span></span><span class="line"><span class="cl">ssh-keygen -t ed25519 -C <span class="s2">&#34;your_email@example.com&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 正确回应每个提示</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Enter file in which to save the key (/home/xt/.ssh/id_ed25519): </span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>Enter<span class="o">]</span> <span class="c1"># 直接回车，使用默认保存路径</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Enter passphrase (empty for no passphrase):</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>Enter<span class="o">]</span> <span class="c1"># 直接回车，不设置密码短语</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Enter same passphrase again:</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>Enter<span class="o">]</span> <span class="c1"># 直接回车</span></span></span></code></pre></div></div>
+<p>秘钥成功生成的标志</p>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-txt" data-lang="txt"><span class="line"><span class="cl">Your identification has been saved in /home/xt/.ssh/id_ed25519
+</span></span><span class="line"><span class="cl">Your public key has been saved in /home/xt/.ssh/id_ed25519.pub
+</span></span><span class="line"><span class="cl">The key fingerprint is:
+</span></span><span class="line"><span class="cl">SHA256:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx your_email@example.com
+</span></span><span class="line"><span class="cl">The key&#39;s randomart image is:
+</span></span><span class="line"><span class="cl">+--[ED25519 256]--+
+</span></span><span class="line"><span class="cl">|    .o.          |
+</span></span><span class="line"><span class="cl">|   .  . .        |
+</span></span><span class="line"><span class="cl">|    .  . .       |
+</span></span><span class="line"><span class="cl">|   . . . .       |
+</span></span><span class="line"><span class="cl">|    + . S        |
+</span></span><span class="line"><span class="cl">|   + + .         |
+</span></span><span class="line"><span class="cl">|  . = o .        |
+</span></span><span class="line"><span class="cl">|   +.Eo .        |
+</span></span><span class="line"><span class="cl">|  .o+++.         |
+</span></span><span class="line"><span class="cl">+----[SHA256]-----+</span></span></code></pre></div></div>
+<p>查看并复制公钥，</p>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">cat ~/.ssh/id_ed25519.pub</span></span></code></pre></div></div>
+<p>访问 GitHub → Settings → SSH and GPG keys → New SSH key<br>
+Title: 我的 Linux 电脑<br>
+Key type: <code>Authentication Key</code><br>
+Key: <code>ssh-ed25519 AAAA...Q8XW your_email@example.com</code><br>
+点击 &ldquo;Add SSH key&rdquo;</p>
+
+<h3 class="relative group">3.3 Go 和 Hugo 安装
+    <div id="33-go-和-hugo-安装" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#33-go-%e5%92%8c-hugo-%e5%ae%89%e8%a3%85" aria-label="锚点">#</a>
+    </span>
+    
+</h3>
+<p><a href="https://go.dev/doc/install"  target="_blank" rel="noreferrer">参考 Hugo 文档</a></p>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># 安装 Go</span>
+</span></span><span class="line"><span class="cl">sudo apt install gccgo-go
+</span></span><span class="line"><span class="cl"><span class="c1"># 配置环境</span>
+</span></span><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">PATH</span><span class="o">=</span><span class="nv">$PATH</span>:/usr/local/go/bin
+</span></span><span class="line"><span class="cl">go version</span></span></code></pre></div></div>
+<p>使用 <code>sudo apt install hugo</code> 命令安装的 Hugo 可能版本较低，推荐下载二进制文件。安装之前卸载旧版。</p>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># 访问 https://github.com/gohugoio/hugo/releases</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Linux amd64 系统 extended 版本</span>
+</span></span><span class="line"><span class="cl">wget https://github.com/gohugoio/hugo/releases/download/v0.146.7/hugo_extended_0.146.7_linux-amd64.tar.gz
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 安装解压工具</span>
+</span></span><span class="line"><span class="cl">sudo apt install tar gzip
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 分步解压</span>
+</span></span><span class="line"><span class="cl">gunzip hugo_extended_0.146.7_linux-amd64.tar.gz
+</span></span><span class="line"><span class="cl">tar -xvf hugo_extended_0.146.7_linux-amd64.tar
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 用 sudo 权限将 hugo 移动到 /usr/local/bin/</span>
+</span></span><span class="line"><span class="cl">sudo mv hugo /usr/local/bin/
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 验证移动成功</span>
+</span></span><span class="line"><span class="cl">ls -l /usr/local/bin/hugo
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 确保 hugo 有执行权限</span>
+</span></span><span class="line"><span class="cl">sudo chmod +x /usr/local/bin/hugo
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 检查版本</span>
+</span></span><span class="line"><span class="cl">hugo version
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 刷新</span>
+</span></span><span class="line"><span class="cl"><span class="nb">hash</span> -r
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">hugo version</span></span></code></pre></div></div>
+<p>暂不考虑 Dart Sass 的安装。</p>
+
+<h2 class="relative group">4 浏览更多教程
+    <div id="4-浏览更多教程" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#4-%e6%b5%8f%e8%a7%88%e6%9b%b4%e5%a4%9a%e6%95%99%e7%a8%8b" aria-label="锚点">#</a>
+    </span>
+    
+</h2>
+<p>做完准备工作，以后每次提交只用这几个命令：</p>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hugo
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> public
+</span></span><span class="line"><span class="cl">git add -A
+</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;second commit&#34;</span>
+</span></span><span class="line"><span class="cl">git push -u origin master</span></span></code></pre></div></div>
+<p>用 Github 的 gh-pages 分支展示自己的项目，及 Github Action 自动发布，可参考<br>
+<a href="https://jianzhnie.github.io/post/hugo_site/"  target="_blank" rel="noreferrer">https://jianzhnie.github.io/post/hugo_site/</a><br>
+<a href="https://blowfish.page/zh-cn/docs/hosting-deployment/"  target="_blank" rel="noreferrer">https://blowfish.page/zh-cn/docs/hosting-deployment/</a></p>
 
           
           
@@ -2224,9 +1902,6 @@ function closePhone(){
       
       
         
-        
-          
-          
         
           
           
@@ -2237,8 +1912,8 @@ function closePhone(){
           type="text/javascript"
           src="/js/page.min.54b6f4371722649edbe871e431d8670d670878c22be8f36e229fe53cc9b786fe25a834def5e6de621f7a3e37b72bc8cd73839aa5ed907ed6cbd45cd3e1b0fa20.js"
           integrity="sha512-VLb0NxciZJ7b6HHkMdhnDWcIeMIr6PNuIp/lPMm3hv4lqDTe9ebeYh96Pje3K8jNc4Oape2QftbL1FzT4bD6IA=="
-          data-oid="views_website/firebase/index.md"
-          data-oid-likes="likes_website/firebase/index.md"></script>
+          data-oid="views_website/ghpages/index.md"
+          data-oid-likes="likes_website/ghpages/index.md"></script>
       
     </section>
 
@@ -2256,32 +1931,19 @@ function closePhone(){
           
             <a
               class="flex text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
-              href="/en/website/giscus/">
+              href="/website/sakana/">
               <span class="leading-6">
-                <span class="inline-block rtl:rotate-180">&larr;</span>&ensp;How to Add a Giscus Comment System to a Hugo Blog
+                <span class="inline-block rtl:rotate-180">&larr;</span>&ensp;网页玩具：「Sakana!」石蒜模拟器
               </span>
             </a>
             
               <span class="ms-6 mt-1 text-xs text-neutral-500 dark:text-neutral-400">
-                <time datetime="2026-02-05T00:00:00&#43;00:00">February 5, 2026</time>
+                <time datetime="2026-02-09T00:00:00&#43;00:00">2026 年 2 月 9 日</time>
               </span>
             
           
         </span>
         <span class="flex flex-col items-end">
-          
-            <a
-              class="flex text-right text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
-              href="/en/website/sakana/">
-              <span class="leading-6">
-                Web Toy: 'Sakana!' Lycoris Radiata Simulator&ensp;<span class="inline-block rtl:rotate-180">&rarr;</span>
-              </span>
-            </a>
-            
-              <span class="me-6 mt-1 text-xs text-neutral-500 dark:text-neutral-400">
-                <time datetime="2026-02-09T00:00:00&#43;00:00">February 9, 2026</time>
-              </span>
-            
           
         </span>
       </div>
@@ -2355,8 +2017,8 @@ function closePhone(){
   <a
     href="#the-top"
     class="pointer-events-auto flex h-12 w-12 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
-    aria-label="Scroll to top"
-    title="Scroll to top">
+    aria-label="返回顶部"
+    title="返回顶部">
     &uarr;
   </a>
 </div>
@@ -2379,20 +2041,20 @@ function closePhone(){
             <li class=" flex mb-1 text-end sm:mb-0 sm:me-7 sm:last:me-0 ">
               <a
                 class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center"
-                href="/en/tags/"
+                href="/tags/"
                 title="Tags">
                 
-                tags
+                标签
               </a>
             </li>
           
             <li class=" flex mb-1 text-end sm:mb-0 sm:me-7 sm:last:me-0 ">
               <a
                 class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center"
-                href="/en/categories/"
+                href="/categories/"
                 title="Categories">
                 
-                categories
+                分类
               </a>
             </li>
           
@@ -2414,9 +2076,9 @@ function closePhone(){
         
         
         
-        Powered by <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+        由 <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
           href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
-          href="https://blowfish.page/" target="_blank" rel="noopener noreferrer">Blowfish</a>
+          href="https://blowfish.page/" target="_blank" rel="noopener noreferrer">Blowfish</a> 强力驱动
       </p>
     
   </div>
@@ -2440,7 +2102,7 @@ function closePhone(){
 </footer><div
   id="search-wrapper"
   class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh] z-500"
-  data-url="https://fairchild26.github.io/en/">
+  data-url="https://fairchild26.github.io/">
   <div
     id="search-modal"
     class="flex flex-col w-full max-w-3xl min-h-0 mx-auto border rounded-md shadow-lg top-20 border-neutral-200 bg-neutral dark:border-neutral-700 dark:bg-neutral-800">
@@ -2454,13 +2116,13 @@ function closePhone(){
           type="search"
           id="search-query"
           class="flex flex-auto h-12 mx-1 bg-transparent appearance-none focus:outline-dotted focus:outline-2 focus:outline-transparent"
-          placeholder="Search"
+          placeholder="搜索"
           tabindex="0">
       </form>
       <button
         id="close-search-button"
         class="flex items-center justify-center w-8 h-8 text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
-        title="Close (Esc)">
+        title="关闭 (Esc)">
         <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
 </span>
       </button>

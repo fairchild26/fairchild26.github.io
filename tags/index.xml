@@ -7,7 +7,47 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>Copyright © 2026 Robin Fairchild</copyright>
-    <lastBuildDate>Sat, 07 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://fairchild26.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://fairchild26.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Git</title>
+      <link>https://fairchild26.github.io/tags/git/</link>
+      <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://fairchild26.github.io/tags/git/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Go</title>
+      <link>https://fairchild26.github.io/tags/go/</link>
+      <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://fairchild26.github.io/tags/go/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://fairchild26.github.io/tags/hugo/</link>
+      <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://fairchild26.github.io/tags/hugo/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>SSH</title>
+      <link>https://fairchild26.github.io/tags/ssh/</link>
+      <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://fairchild26.github.io/tags/ssh/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Lambda</title>
@@ -100,16 +140,6 @@
     </item>
     
     <item>
-      <title>Hugo</title>
-      <link>https://fairchild26.github.io/tags/hugo/</link>
-      <pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate>
-      
-      <guid>https://fairchild26.github.io/tags/hugo/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>Firabase</title>
       <link>https://fairchild26.github.io/tags/firabase/</link>
       <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
@@ -125,26 +155,6 @@
       <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
       
       <guid>https://fairchild26.github.io/tags/giscus/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Git</title>
-      <link>https://fairchild26.github.io/tags/git/</link>
-      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
-      
-      <guid>https://fairchild26.github.io/tags/git/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Go</title>
-      <link>https://fairchild26.github.io/tags/go/</link>
-      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
-      
-      <guid>https://fairchild26.github.io/tags/go/</guid>
       <description></description>
       
     </item>
