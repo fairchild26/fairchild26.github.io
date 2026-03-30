@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>Copyright © 2026 Robin Fairchild</copyright>
-    <lastBuildDate>Fri, 13 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://fairchild26.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 17 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://fairchild26.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Anaconda</title>
+      <link>https://fairchild26.github.io/tags/anaconda/</link>
+      <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://fairchild26.github.io/tags/anaconda/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Git</title>
