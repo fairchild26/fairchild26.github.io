@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>Copyright © 2026 Robin Fairchild</copyright>
-    <lastBuildDate>Wed, 18 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://fairchild26.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://fairchild26.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>C&#43;&#43;</title>
+      <link>https://fairchild26.github.io/categories/c&#43;&#43;/</link>
+      <pubDate>Sun, 05 Apr 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://fairchild26.github.io/categories/c&#43;&#43;/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Python</title>
@@ -15,16 +25,6 @@
       <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
       
       <guid>https://fairchild26.github.io/categories/python/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>C&#43;&#43;</title>
-      <link>https://fairchild26.github.io/categories/c&#43;&#43;/</link>
-      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
-      
-      <guid>https://fairchild26.github.io/categories/c&#43;&#43;/</guid>
       <description></description>
       
     </item>

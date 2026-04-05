@@ -3,20 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://fairchild26.github.io/python/</loc>
-    <lastmod>2026-03-18T00:00:00+00:00</lastmod>
+    <loc>https://fairchild26.github.io/cpp/</loc>
+    <lastmod>2026-04-05T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://fairchild26.github.io/en/cpp/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="https://fairchild26.github.io/cpp/"
+    />
+  </url>
+  <url>
+    <loc>https://fairchild26.github.io/cpp/qt-class/</loc>
+    <lastmod>2026-04-05T00:00:00+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://fairchild26.github.io/python/if/</loc>
-    <lastmod>2026-03-18T00:00:00+00:00</lastmod>
+    <loc>https://fairchild26.github.io/cpp/qt-res/</loc>
+    <lastmod>2026-04-05T00:00:00+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://fairchild26.github.io/</loc>
-    <lastmod>2026-03-18T00:00:00+00:00</lastmod>
+    <lastmod>2026-04-05T00:00:00+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -29,6 +45,18 @@
       hreflang="zh-cn"
       href="https://fairchild26.github.io/"
     />
+  </url>
+  <url>
+    <loc>https://fairchild26.github.io/python/</loc>
+    <lastmod>2026-03-18T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fairchild26.github.io/python/if/</loc>
+    <lastmod>2026-03-18T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://fairchild26.github.io/python/hello/</loc>
@@ -78,22 +106,6 @@
       rel="alternate"
       hreflang="zh-cn"
       href="https://fairchild26.github.io/cpp/for_each/"
-    />
-  </url>
-  <url>
-    <loc>https://fairchild26.github.io/cpp/</loc>
-    <lastmod>2026-03-07T00:00:00+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://fairchild26.github.io/en/cpp/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="zh-cn"
-      href="https://fairchild26.github.io/cpp/"
     />
   </url>
   <url>
